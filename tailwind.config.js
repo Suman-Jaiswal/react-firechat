@@ -25,7 +25,7 @@ module.exports = {
           800: '#92264a',
           900: '#822142',
         },
-      },
+     },
       boxShadow: {
         button: 'var(--shadow-button)',
         card: 'var(--shadow-card)',
@@ -33,7 +33,7 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {}, 
   },
   plugins: [
     function ({ addUtilities, e, theme, variants }) {
